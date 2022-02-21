@@ -1,4 +1,4 @@
-baseURL = "http://visualpartnership.xyz/legendary-giggle"
+baseURL = "https://visualpartnership.xyz/legendary-giggle"
 languageCode = "en-us"
 title = "Launch X 🚀"
 theme = "hugo-winston-theme"
