@@ -1,4 +1,5 @@
 baseURL = "https://visualpartnership.xyz/legendary-giggle"
+canonifyURLs=true
 languageCode = "en-us"
 title = "Launch X 🚀"
 theme = "hugo-winston-theme"
