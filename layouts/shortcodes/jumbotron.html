@@ -1,0 +1,32 @@
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<div class="jumbotron_title">
+    <div class="container_title">
+      <h1>{{ index .Params 0 }}</h1>
+    </div>
+  </div>
+
+<style>
+.jumbotron_title {
+  padding: 30px; /* fills out the jumbotron_title */
+  background-color: #FFC308;
+}
+
+.container_title {
+  width: 1170px; /* specify a width */
+  margin: 0 auto;  /* centers the container_title */
+  padding: 0 15px; /* adds some padding to the left and right*/
+}
+
+.jumbotron_title .container_title {
+  max-width: 100%; /* allows the jumbotron_title to adjust on smaller widths */
+}
+
+.jumbotron_title h1 {
+  color: #FFF;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+}
+</style>
