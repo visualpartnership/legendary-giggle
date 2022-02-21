@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://visualpartnership.xyz/legendary-giggle/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 1: Tooling</title>
+      <link>https://visualpartnership.xyz/legendary-giggle/posts/week1-1/</link>
+      <pubDate>Mon, 21 Feb 2022 13:33:50 -0600</pubDate>
+      
+      <guid>https://visualpartnership.xyz/legendary-giggle/posts/week1-1/</guid>
+      <description>Week 1    .jumbotron { padding: 30px; background-color: #01406c; } .container { width: 1170px; margin: 0 auto; padding: 0 15px; } .jumbotron .container { max-width: 100%; } .jumbotron h1 { text-align: center; color: #FFF; font-family: &#39;PT Serif&#39;, serif; font-weight: 400; }  1. Introducción 📍 - Uso del control de versiones - Conocimiento del SO por línea de comando - Uso del editor de texto 2. Checkpoint: Creando tu propio blog 🧪 3.</description>
+    </item>
+    
+    <item>
       <title>The revolution will be complete when the language is perfect</title>
       <link>https://visualpartnership.xyz/legendary-giggle/posts/language-perfect/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
