@@ -125,6 +125,86 @@ Sobre git es necesario que puedas hacer esto por tu cuenta usando solo **comando
 
 Si no sabes nada de esto, no te preocupes, entra a la mentoría porque ahí desarrollaremos estos temas.
 
-También puedes realizar el curso completo de git que desarrollé: [Git Course](https://carlogilmar.gitbooks.io/git-course/content/)
-
 {{< jumbotron "2 Checkpoint: Creando tu propio blog 🧪" >}}
+
+Herramientas que vamos a usar:
+
+- [Go Hugo](https://gohugo.io/getting-started/installing/)
+- Git
+- Cuenta activa de GitHub
+- [Saber escribir en formato markdown](https://www.markdownguide.org/basic-syntax/)
+
+Sigue las siguientes instrucciones:
+
+### 1) Realiza un fork del proyecto 
+
+Ve al siguiente repo en GitHub y hazle un fork: (https://github.com/visualpartnership/super-duper-memory)[https://github.com/visualpartnership/super-duper-memory] Esto deberá crear una copia de este repositorio en tu cuenta de GitHub para uso personal. Recuerda esta es una copia para ti. 
+
+![Untitled](https://user-images.githubusercontent.com/17634377/155231614-392d4b72-c2a5-4ece-93f1-e795516d590b.gif)
+
+El **fork** que acabas de crear es una copia para ti, este será el blog que montarás y llenarás de contenido en nuestras sesiones. 
+
+### 2) Activa GitHub Pages y obtén la url donde publicarás tu blog
+
+Habilita GitHub Pages y obtén la url del sitio que te da:
+
+![week1-2](https://user-images.githubusercontent.com/17634377/155232658-81da2cb6-6e4f-4081-8859-ed16f5836d7a.gif)
+
+En mi caso tengo un dominio que uso para GitHub, **http://carlogilmar.xyz/super-duper-memory/**, conserva esta url completa. Si intentas entrar no verás nada porque no hay ningún contenido que mostrar. 
+
+### 3) Modifica el archivo conf.toml
+
+Regresa al repo de tu fork, da click sobre el archivo **conf.toml** y modifica los valores mostrados con tu información y **tu url**. No olvides guardar este cambio con un commit.
+
+![week1-3](https://user-images.githubusercontent.com/17634377/155233330-5d9260cb-e9bc-4501-85a7-42f829543afe.gif)
+
+### 4) Agrega un GitHub Action para construir tu blog y publicarlo
+
+Haremos uso de **GoHugo** para publicar el blog. Todo este archivo es un proyecto hecho con esta herramienta, mediante un GitHub Action construiremos el sitio y lo podrás ver en tu url.
+
+Copia el siguiente contenido:
+
+```yml
+name: Build Personal Blog
+on: push
+
+jobs:
+  build:
+
+    name: Build and update website
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+        fetch-depth: 0
+    - name: Setup GoHugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.92.0'
+    - name: Commit Update
+      run: |
+        echo ":: Eliminando versión previa ::"
+        rm -rf docs
+    - name: Build drafts
+      run: hugo -D
+    - name: Commit Update
+      run: |
+        echo ":: Renombrando nueva version ::"
+        mv public/ docs/
+        git config --global user.email "launchx@innovaccion.mx"
+        git config --global user.name "Launch X Backend Node JS"
+        git add .
+        git commit -m "GitHub Actions: Build ok"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
+```
+
+Aquí puedes ver este mismo snippet de código: [GitHub Action yml](https://gist.github.com/carlogilmar/9f2fe8d43313501b459f9381e36eeb9b)
+
+Ve al repo, y crea el siguiente archivo: **.github/workflows/build_launchx_blog.yml** y ahí copia el contenido copiado. Guarda tus cambios con un commit.
+
