@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Launch X 🚀</title>
+    <title>Weeks on Launch X 🚀</title>
     <link>https://visualpartnership.xyz/legendary-giggle/posts/</link>
-    <description>Recent content in Blog on Launch X 🚀</description>
+    <description>Recent content in Weeks on Launch X 🚀</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://visualpartnership.xyz/legendary-giggle/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Week 1: Tooling</title>
+      <title>Weekly Mission 1: Tooling</title>
       <link>https://visualpartnership.xyz/legendary-giggle/posts/week1-1/</link>
       <pubDate>Mon, 21 Feb 2022 13:33:50 -0600</pubDate>
       
       <guid>https://visualpartnership.xyz/legendary-giggle/posts/week1-1/</guid>
-      <description>Week 1    .jumbotron { padding: 30px; background-color: #01406c; } .container { width: 1170px; margin: 0 auto; padding: 0 15px; } .jumbotron .container { max-width: 100%; } .jumbotron h1 { text-align: center; color: #FFF; font-family: &#39;PT Serif&#39;, serif; font-weight: 400; }  1. Introducción 📍 - Uso del control de versiones - Conocimiento del SO por línea de comando - Uso del editor de texto 2. Checkpoint: Creando tu propio blog 🧪 3.</description>
+      <description>Week 1     .jumbotron { padding: 30px; background-color: #01406c; } .container { width: 1170px; margin: 0 auto; padding: 0 15px; } .jumbotron .container { max-width: 100%; } .jumbotron h1 { text-align: center; color: #FFF; font-family: &#39;PT Serif&#39;, serif; font-weight: 400; }  0. Intro 🚀 1. Exploraciones 🕵️ - Conocimiento del SO por línea de comando - Uso del control de versiones - Uso del editor de texto 2.</description>
     </item>
     
   </channel>
