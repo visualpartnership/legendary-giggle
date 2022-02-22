@@ -148,23 +148,27 @@ El **fork** que acabas de crear es una copia para ti, este será el blog que mon
 
 ### 2) Activa GitHub Pages y obtén la url donde publicarás tu blog
 
-Habilita GitHub Pages, para ello ve a **Settings** del lado izquierdo selecciona **Pages**. Obtén la url del sitio que te da de la siguiente forma:
+Habilita GitHub Pages, para ello ve a **Settings** y del lado izquierdo selecciona **Pages**. Obtén la url del sitio que te da de la siguiente forma:
 
 Recuerda seleccionar **master** como el branch principal y la carpeta **docs**. Sigue lo siguiente:
 
 ![week1-2](https://user-images.githubusercontent.com/17634377/155232658-81da2cb6-6e4f-4081-8859-ed16f5836d7a.gif)
 
-Reserva la url, si entras por tu navegador podrás ver algo así:
+Reserva la url, espera unos minutos y si entras por tu navegador podrás ver algo así (esto puede tardar un tiempo en mostrarse):
 
 ![image](https://user-images.githubusercontent.com/17634377/155236315-d71fc55f-6862-42d0-b3a9-8bf86c572fcd.png)
 
-Esto es debido a que el proyecto no esta configurado correctamente. 
+Esto se ve así porque el proyecto no esta configurado correctamente. 
 
-### 3) Modifica el archivo conf.toml
+### 3) Modifica la configuración
 
 Regresa al repo de tu fork, da click sobre el archivo **conf.toml** y modifica los valores mostrados con tu información y **tu url**. No olvides guardar este cambio con un commit.
 
 ![week1-3](https://user-images.githubusercontent.com/17634377/155233330-5d9260cb-e9bc-4501-85a7-42f829543afe.gif)
+
+Ahora agregaremos tu información personal en los archivos de **data/social.json** y **data/social.json**, a continuación te muestro cómo:
+
+![week1-3-2](https://user-images.githubusercontent.com/17634377/155238857-3c79d33c-8081-4f7d-92e2-c3990d3f6700.gif)
 
 ### 4) Agrega un GitHub Action para construir tu blog y publicarlo
 
@@ -172,7 +176,7 @@ Haremos uso de **GoHugo** para publicar el blog. Todo este archivo es un proyect
 
 Copia el siguiente contenido:
 
-```yml
+``` yml
 name: Build Personal Blog
 on: push
 
@@ -217,3 +221,12 @@ Aquí puedes ver este mismo snippet de código: [GitHub Action yml](https://gist
 Ve al repo, y crea el siguiente archivo: **.github/workflows/build_launchx_blog.yml** y ahí copia el contenido copiado. Guarda tus cambios con un commit.
 
 ![week1-4](https://user-images.githubusercontent.com/17634377/155236576-38a43563-075c-44e8-b3d0-23407a7d9753.gif)
+
+Al guardar esto, enseguida ve a la pestaña de **Actions** y verás algo así, esto quiere decir que dos **jobs** se están ejecutando: la construcción del proyecto de Hugo y la publicación de GitHub Actions.
+
+![image](https://user-images.githubusercontent.com/17634377/155239039-d45734cc-d4f4-4089-8d05-72fd783d63dc.png)
+
+Una vez que los indicadores amarillos pasen a verde, visita de nuevo el sitio web:
+
+![image](https://user-images.githubusercontent.com/17634377/155239119-7c5182e7-a717-4b44-b666-755e6c588e9e.png)
+
