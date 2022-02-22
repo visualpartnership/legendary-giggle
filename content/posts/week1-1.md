@@ -138,7 +138,9 @@ Sigue las siguientes instrucciones:
 
 ### 1) Realiza un fork del proyecto 
 
-Ve al siguiente repo en GitHub y hazle un fork: [https://github.com/visualpartnership/super-duper-memory](https://github.com/visualpartnership/super-duper-memory) Esto deberá crear una copia de este repositorio en tu cuenta de GitHub para uso personal. Recuerda esta es una copia para ti. 
+El repo original es un proyecto creado y configurado con GoHugo para ti.
+
+Ve al siguiente repo en GitHub y hazle un fork: [https://github.com/visualpartnership/super-duper-memory](https://github.com/visualpartnership/my_launchx_blog) Esto deberá crear una copia de este repositorio en tu cuenta de GitHub para uso personal. Recuerda esta es una copia para ti. 
 
 ![Untitled](https://user-images.githubusercontent.com/17634377/155231614-392d4b72-c2a5-4ece-93f1-e795516d590b.gif)
 
@@ -146,11 +148,17 @@ El **fork** que acabas de crear es una copia para ti, este será el blog que mon
 
 ### 2) Activa GitHub Pages y obtén la url donde publicarás tu blog
 
-Habilita GitHub Pages y obtén la url del sitio que te da:
+Habilita GitHub Pages, para ello ve a **Settings** del lado izquierdo selecciona **Pages**. Obtén la url del sitio que te da de la siguiente forma:
+
+Recuerda seleccionar **master** como el branch principal y la carpeta **docs**. Sigue lo siguiente:
 
 ![week1-2](https://user-images.githubusercontent.com/17634377/155232658-81da2cb6-6e4f-4081-8859-ed16f5836d7a.gif)
 
-En mi caso tengo un dominio que uso para GitHub, **http://carlogilmar.xyz/super-duper-memory/**, conserva esta url completa. Si intentas entrar no verás nada porque no hay ningún contenido que mostrar. 
+Reserva la url, si entras por tu navegador podrás ver algo así:
+
+![image](https://user-images.githubusercontent.com/17634377/155236315-d71fc55f-6862-42d0-b3a9-8bf86c572fcd.png)
+
+Esto es debido a que el proyecto no esta configurado correctamente. 
 
 ### 3) Modifica el archivo conf.toml
 
@@ -208,3 +216,4 @@ Aquí puedes ver este mismo snippet de código: [GitHub Action yml](https://gist
 
 Ve al repo, y crea el siguiente archivo: **.github/workflows/build_launchx_blog.yml** y ahí copia el contenido copiado. Guarda tus cambios con un commit.
 
+![week1-4](https://user-images.githubusercontent.com/17634377/155236576-38a43563-075c-44e8-b3d0-23407a7d9753.gif)
