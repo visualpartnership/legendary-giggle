@@ -129,16 +129,16 @@ Si no sabes nada de esto, no te preocupes, entra a la mentoría porque ahí desa
 
 Herramientas que vamos a usar:
 
-- [Go Hugo](https://gohugo.io/getting-started/installing/)
-- Git
-- Cuenta activa de GitHub
-- [Saber escribir en formato markdown](https://www.markdownguide.org/basic-syntax/)
+- 👉 [Go Hugo](https://gohugo.io/getting-started/installing/)
+- 👉 Git
+- 👉 Cuenta activa de GitHub
+- 👉 [Saber escribir en formato markdown](https://www.markdownguide.org/basic-syntax/)
 
 Sigue las siguientes instrucciones:
 
 ### 1) Realiza un fork del proyecto 
 
-Ve al siguiente repo en GitHub y hazle un fork: (https://github.com/visualpartnership/super-duper-memory)[https://github.com/visualpartnership/super-duper-memory] Esto deberá crear una copia de este repositorio en tu cuenta de GitHub para uso personal. Recuerda esta es una copia para ti. 
+Ve al siguiente repo en GitHub y hazle un fork: [https://github.com/visualpartnership/super-duper-memory](https://github.com/visualpartnership/super-duper-memory) Esto deberá crear una copia de este repositorio en tu cuenta de GitHub para uso personal. Recuerda esta es una copia para ti. 
 
 ![Untitled](https://user-images.githubusercontent.com/17634377/155231614-392d4b72-c2a5-4ece-93f1-e795516d590b.gif)
 
