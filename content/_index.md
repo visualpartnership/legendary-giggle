@@ -16,7 +16,7 @@ En la sección de **Mentorías** 💫 encontrarás la información relativa a la
 
 En la sección de **Actividades** 🎯 estará el material que usaremos durante nuestro trayecto: ejercicios, referencias, etc.
 
-{{< my_button "Ir al contenido" "/posts" >}}
+{{< my_button "Contenido" "/posts" >}}
 
 Espero que esta experiencia resulte de mucho interés y compromiso para ti. 💖
 
