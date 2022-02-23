@@ -187,7 +187,6 @@ What distinguises Pragmatic Programmers? We feel it&rsquo;s an attitude, a style
 <li>💡 Actualizar tu repositorio local <strong>pull</strong></li>
 </ul>
 <p>Si no sabes nada de esto, no te preocupes, entra a la mentoría porque ahí desarrollaremos estos temas.</p>
-<p>También puedes realizar el curso completo de git que desarrollé: <a href="https://carlogilmar.gitbooks.io/git-course/content/">Git Course</a></p>
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
 </head>
@@ -221,6 +220,91 @@ What distinguises Pragmatic Programmers? We feel it&rsquo;s an attitude, a style
 }
 </style>
 
+<p>Herramientas que vamos a usar:</p>
+<ul>
+<li>👉 <a href="https://gohugo.io/getting-started/installing/">Go Hugo</a></li>
+<li>👉 Git</li>
+<li>👉 Cuenta activa de GitHub</li>
+<li>👉 <a href="https://www.markdownguide.org/basic-syntax/">Saber escribir en formato markdown</a></li>
+</ul>
+<p>Sigue las siguientes instrucciones:</p>
+<h3 id="1-realiza-un-fork-del-proyecto">1) Realiza un fork del proyecto</h3>
+<p>El repo original es un proyecto creado y configurado con GoHugo para ti.</p>
+<p>Ve al siguiente repo en GitHub y hazle un fork: <a href="https://github.com/visualpartnership/my_launchx_blog">https://github.com/visualpartnership/super-duper-memory</a> Esto deberá crear una copia de este repositorio en tu cuenta de GitHub para uso personal. Recuerda esta es una copia para ti.</p>
+<p><img src="https://user-images.githubusercontent.com/17634377/155231614-392d4b72-c2a5-4ece-93f1-e795516d590b.gif" alt="Untitled"></p>
+<p>El <strong>fork</strong> que acabas de crear es una copia para ti, este será el blog que montarás y llenarás de contenido en nuestras sesiones.</p>
+<h3 id="2-activa-github-pages-y-obtén-la-url-donde-publicarás-tu-blog">2) Activa GitHub Pages y obtén la url donde publicarás tu blog</h3>
+<p>Habilita GitHub Pages, para ello ve a <strong>Settings</strong> y del lado izquierdo selecciona <strong>Pages</strong>. Obtén la url del sitio que te da de la siguiente forma:</p>
+<p>Recuerda seleccionar <strong>master</strong> como el branch principal y la carpeta <strong>docs</strong>. Sigue lo siguiente:</p>
+<p><img src="https://user-images.githubusercontent.com/17634377/155232658-81da2cb6-6e4f-4081-8859-ed16f5836d7a.gif" alt="week1-2"></p>
+<p>Reserva la url, espera unos minutos y si entras por tu navegador podrás ver algo así (esto puede tardar un tiempo en mostrarse):</p>
+<p><img src="https://user-images.githubusercontent.com/17634377/155236315-d71fc55f-6862-42d0-b3a9-8bf86c572fcd.png" alt="image"></p>
+<p>Esto se ve así porque el proyecto no esta configurado correctamente.</p>
+<h3 id="3-modifica-la-configuración">3) Modifica la configuración</h3>
+<p>Regresa al repo de tu fork, da click sobre el archivo <strong>conf.toml</strong> y modifica los valores mostrados con tu información y <strong>tu url</strong>. No olvides guardar este cambio con un commit.</p>
+<p><img src="https://user-images.githubusercontent.com/17634377/155233330-5d9260cb-e9bc-4501-85a7-42f829543afe.gif" alt="week1-3"></p>
+<p>Ahora agregaremos tu información personal en los archivos de <strong>data/social.json</strong> y <strong>data/social.json</strong>, a continuación te muestro cómo:</p>
+<p><img src="https://user-images.githubusercontent.com/17634377/155238857-3c79d33c-8081-4f7d-92e2-c3990d3f6700.gif" alt="week1-3-2"></p>
+<h3 id="4-agrega-un-github-action-para-construir-tu-blog-y-publicarlo">4) Agrega un GitHub Action para construir tu blog y publicarlo</h3>
+<p>Haremos uso de <strong>GoHugo</strong> para publicar el blog. Todo este archivo es un proyecto hecho con esta herramienta, mediante un GitHub Action construiremos el sitio y lo podrás ver en tu url.</p>
+<p>Copia el siguiente contenido:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build Personal Blog</span><span class="w">
+</span><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w"> </span><span class="l">push</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">build</span><span class="p">:</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build and update website</span><span class="w">
+</span><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span>- <span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v2</span><span class="w">
+</span><span class="w">      </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">submodules</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">        </span><span class="nt">fetch-depth</span><span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
+</span><span class="w">    </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup GoHugo</span><span class="w">
+</span><span class="w">      </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v2</span><span class="w">
+</span><span class="w">      </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;0.92.0&#39;</span><span class="w">
+</span><span class="w">    </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Commit Update</span><span class="w">
+</span><span class="w">      </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span><span class="sd">        echo &#34;:: Eliminando versión previa ::&#34;
+</span><span class="sd">        rm -rf docs</span><span class="w">        
+</span><span class="w">    </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build drafts</span><span class="w">
+</span><span class="w">      </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo -D</span><span class="w">
+</span><span class="w">    </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Commit Update</span><span class="w">
+</span><span class="w">      </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span><span class="sd">        echo &#34;:: Renombrando nueva version ::&#34;
+</span><span class="sd">        mv public/ docs/
+</span><span class="sd">        git config --global user.email &#34;launchx@innovaccion.mx&#34;
+</span><span class="sd">        git config --global user.name &#34;Launch X Backend Node JS&#34;
+</span><span class="sd">        git add .
+</span><span class="sd">        git commit -m &#34;GitHub Actions: Build ok&#34;</span><span class="w">        
+</span><span class="w">    </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Push changes</span><span class="w">
+</span><span class="w">      </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">ad-m/github-push-action@master</span><span class="w">
+</span><span class="w">      </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">github_token</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.GITHUB_TOKEN }}</span><span class="w">
+</span><span class="w">        </span><span class="nt">branch</span><span class="p">:</span><span class="w"> </span><span class="l">${{ github.ref }}</span><span class="w">
+</span></code></pre></div><p>Aquí puedes ver este mismo snippet de código: <a href="https://gist.github.com/carlogilmar/9f2fe8d43313501b459f9381e36eeb9b">GitHub Action yml</a></p>
+<p>Ve al repo, y crea el siguiente archivo: <strong>.github/workflows/build_launchx_blog.yml</strong> y ahí pega el contenido anterior. Guarda tus cambios con un commit.</p>
+<p><img src="https://user-images.githubusercontent.com/17634377/155236576-38a43563-075c-44e8-b3d0-23407a7d9753.gif" alt="week1-4"></p>
+<p>Al guardar esto, enseguida ve a la pestaña de <strong>Actions</strong> y verás algo así, esto quiere decir que dos <strong>jobs</strong> se están ejecutando: la construcción del proyecto de Hugo y la publicación de GitHub Actions.</p>
+<p><img src="https://user-images.githubusercontent.com/17634377/155239039-d45734cc-d4f4-4089-8d05-72fd783d63dc.png" alt="image"></p>
+<p>Una vez que los indicadores amarillos pasen a verde, visita de nuevo el sitio web:</p>
+<p><img src="https://user-images.githubusercontent.com/17634377/155239119-7c5182e7-a717-4b44-b666-755e6c588e9e.png" alt="image"></p>
+<h3 id="5-modifica-la-descripción">5) Modifica la descripción</h3>
+<p>Modifica la descripción que aparece en la página de tu nuevo blog. Agregar una descripción de ti, y haz un listado de tus propias expectativas de aprendizaje para este módulo de Backend en Launch X.</p>
+<p><img src="https://user-images.githubusercontent.com/17634377/155239816-e641c91d-7480-4e6e-a746-e4c75d86ef56.gif" alt="week1-5"></p>
+<p>NOTA: Al guardar estos cambios con un commit, automáticamente GitHub Actions ejecutará los dos jobs para construir el proyecto y publicarlo en GitHub Pages. Por lo que resta decir que cualquier cambio desde aquí ejecutará inmendiatamente ambos procedimientos. Puedes ver la pestaña de <strong>Actions</strong> y cuando los indicadores estén en verde, puedes visitar tu sitio actualizado.</p>
+<h3 id="6-agrega-el-contenido-de-tu-primer-post-la-cultura-en-el-desarrollo-de-software">6) Agrega el contenido de tu primer post: La cultura en el desarrollo de software</h3>
+<p>Es tiempo de agregar el primer post de tu blog. Modificaremos el archivo markdown que ya esta ahí.</p>
+<blockquote>
+<p>Piensa en la cultura de un profesional de software y redacta a tu manera un post donde nos muestres qué valores, prácticas, sentimientos, emociones, y demás, valoras en un desarrollador de software.</p>
+</blockquote>
+<p>Agrega ese contenido en el post, usando el formato markdown, de la siguiente forma:</p>
+<p><img src="https://user-images.githubusercontent.com/17634377/155240589-5805312e-18b9-4556-89fa-e3b4d899e526.gif" alt="week1-6"></p>
+<p>Al guardar tus cambios, podrás ver tu nuevo post en la sección de <strong>posts</strong>:</p>
+<p><img src="https://user-images.githubusercontent.com/17634377/155240699-b0bb0cae-9864-495a-a6df-30bdbbd413ab.png" alt="image"></p>
 
     </div>
   </div>
