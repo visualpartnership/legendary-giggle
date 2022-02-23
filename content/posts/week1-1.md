@@ -218,7 +218,7 @@ jobs:
 
 Aquí puedes ver este mismo snippet de código: [GitHub Action yml](https://gist.github.com/carlogilmar/9f2fe8d43313501b459f9381e36eeb9b)
 
-Ve al repo, y crea el siguiente archivo: **.github/workflows/build_launchx_blog.yml** y ahí copia el contenido copiado. Guarda tus cambios con un commit.
+Ve al repo, y crea el siguiente archivo: **.github/workflows/build_launchx_blog.yml** y ahí pega el contenido anterior. Guarda tus cambios con un commit.
 
 ![week1-4](https://user-images.githubusercontent.com/17634377/155236576-38a43563-075c-44e8-b3d0-23407a7d9753.gif)
 
@@ -229,4 +229,28 @@ Al guardar esto, enseguida ve a la pestaña de **Actions** y verás algo así, e
 Una vez que los indicadores amarillos pasen a verde, visita de nuevo el sitio web:
 
 ![image](https://user-images.githubusercontent.com/17634377/155239119-7c5182e7-a717-4b44-b666-755e6c588e9e.png)
+
+### 5) Modifica la descripción 
+
+Modifica la descripción que aparece en la página de tu nuevo blog. Agregar una descripción de ti, y haz un listado de tus propias expectativas de aprendizaje para este módulo de Backend en Launch X. 
+
+![week1-5](https://user-images.githubusercontent.com/17634377/155239816-e641c91d-7480-4e6e-a746-e4c75d86ef56.gif)
+
+NOTA: Al guardar estos cambios con un commit, automáticamente GitHub Actions ejecutará los dos jobs para construir el proyecto y publicarlo en GitHub Pages. Por lo que resta decir que cualquier cambio desde aquí ejecutará inmendiatamente ambos procedimientos. Puedes ver la pestaña de **Actions** y cuando los indicadores estén en verde, puedes visitar tu sitio actualizado.
+
+### 6) Agrega el contenido de tu primer post: La cultura en el desarrollo de software
+
+Es tiempo de agregar el primer post de tu blog. Modificaremos el archivo markdown que ya esta ahí.
+
+> Piensa en la cultura de un profesional de software y redacta a tu manera un post donde nos muestres qué valores, prácticas, sentimientos, emociones, y demás, valoras en un desarrollador de software. 
+
+Agrega ese contenido en el post, usando el formato markdown, de la siguiente forma:
+
+![week1-6](https://user-images.githubusercontent.com/17634377/155240589-5805312e-18b9-4556-89fa-e3b4d899e526.gif)
+
+Al guardar tus cambios, podrás ver tu nuevo post en la sección de **posts**:
+
+![image](https://user-images.githubusercontent.com/17634377/155240699-b0bb0cae-9864-495a-a6df-30bdbbd413ab.png)
+
+
 
