@@ -307,7 +307,7 @@ Puedes agregar una descripción de ti en **content/pages/about.md**.
 Para tener un lugar donde ver los blogs creados en esta sesión tendrás que actualizar un repositorio de GitHub que no es tuyo, para esto nos sirven los **Pull Request**.
 
 CREA UN FORK 
-- 📌 Ve al siguiente (repositorio de GitHub 🔗)[https://github.com/visualpartnership/launch-x-explorers]
+- 📌 Ve al siguiente [repositorio de GitHub 🔗](https://github.com/visualpartnership/launch-x-explorers)
 - 📌 Crea una copia de ese proyecto en tu cuenta. Para esto da click en el botón de **fork**.
 - 📌 Copia esta línea, pon tu nombre, pon tu username de GitHub, y agregar el link a tu blog:
 
@@ -316,8 +316,10 @@ CREA UN FORK
 ```
 - 📌 En el archivo **readme.md** en la línea 12 agregar la línea de arriba con tus datos y guarda con un commit. 
 
+![week1-8](https://user-images.githubusercontent.com/17634377/156303044-702f50a8-97d6-4863-ad26-b08d64d2393d.gif)
+
 MANDA TU PRIMER PR
-- 📌 Regresa al (repositorio original 🔗)[https://github.com/visualpartnership/launch-x-explorers]
+- 📌 Regresa al [repositorio de GitHub 🔗](https://github.com/visualpartnership/launch-x-explorers)
 - 📌 Ve a la pestaña de **Pull requests** y da click en el botón verde **New pull request**
 - 📌 Da click en el link azul que dice **compare across forks** y debajo cambiarán las opciones
 - 📌 Da click en el botón que inicia con **head repository** y elige el repositorio que inicie con tu usuario.
@@ -325,6 +327,6 @@ MANDA TU PRIMER PR
 - 📌 Agrega una descripción, y da click en el botón verde **Create pull request**
 - 📌 Listo, una vez creado tu blog post espera a que el maintainer del repositorio original lo acepte.
 
-
+![week1-10](https://user-images.githubusercontent.com/17634377/156303054-f8596c6c-041a-4c36-bde1-2d262b777e4d.gif)
 
 
