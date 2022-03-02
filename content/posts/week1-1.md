@@ -1,39 +1,61 @@
 ---
-title: "Weekly Mission 1: Tooling"
+title: "Weekly Mission 1"
 date: 2022-02-21T13:33:50-06:00
 draft: false
 description: Contenido de la semana 1
 ---
 
+{{< title "Weekly Mission 1" >}}
 
-{{< title "Week 1 " >}}
+# Goal ⭐️
+> Conocer y discutir la importancia de las herramientas básicas del desarrollo de software y porque debemos invertir tiempo en dominarlas.
 
+# Achievements 🏆
+``` markdown
+ 🎯  Comenzar a usar la línea de comando de tu Sistema Operativo
+ 🎯  Explorar los usos y entender los conceptos del control de versiones Git
+ 🎯  Uso de GitHub como plataforma para hospedar código, Pull Requests y Forks.
+ 🎯  Elaboración de un blog propio
+ 🎯  Contribución a un repo a través de un Pull Request
+ 🎯  Instalación de NodeJS
+```
+
+# Summary 📌
 ``` markdown
 0. Intro 🚀
 1. Exploraciones 🕵️
   - Conocimiento del SO por línea de comando
   - Uso del control de versiones
   - Uso del editor de texto
-2. Checkpoint: Creando tu propio blog 🧪
+2. Checkpoint: Creando tu propio blog
 3. Referencias 📕
-4. Extra 😁
 ```
 
-# Intro: Hola Explorers 🤩
+{{< title "Weekly Mission 1" >}}
+
+# 0. Intro: Hola Explorers 🤩
 
 Bienvenidos al módulo de **Launch X** en Backend con **Node JS**. Aquí encontrarás el contenido de la semana 1. El diseño de este contenido ha sido pensado para guiarte paso a paso por los contenidos, consta de lo siguiente:
 - 📌 1 Exploraciones
 - 📌 2 Checkpoint
 - 📌 3 Referencias
-- 📌 4 Extra
 
-Las **1) exploraciones** son guías que deberás desarrollar, te darán una idea de qué investigar y cómo complementar tu aprendizaje. **Es importante leer esta parte al menos una vez porque en las mentorías platicaremos de esto.**
+Las **1) exploraciones** son guías que deberás desarrollar, te darán una idea de qué investigar y cómo complementar tu aprendizaje. **Es importante leer esta parte al menos una vez porque en las mentorías platicaremos de esto.** Es conveniente investigar este contenido, pero no te preocupes, este contenido lo vamos a desarrollar en las mentorías juntos.
 
-Es muy importante realizar la actividad del **2) Checkpoint**. Ahí encontrarás paso a paso cómo llevarla a cabo y cómo debes entregarla.
+El punto **2) Checkpoint** es la parte práctica, he tratado de describir paso a paso qué y cómo realizarlo, este será tu producto de aprendizaje.
 
 En el punto **3) Referencias** encontrarás el listado de libros y artículos de referencia.
 
-Si terminas la actividad del **Checkpoint**, entonces la sección **4) Extra** será para ti, ahí encontrarás contenido para seguir aprendiendo.
+### 💡 LaunchX Workbook
+
+Te invito a crear tu propio Workbook 📕:
+
+- 📌 Toma 6 hojas blancas tamaño carta
+- 📌 Dobla por la mitad y crea un cuadernillo (Puedes usar la caratula que diseñé para ti)
+
+> El workbook sirve para vaciar las ideas, dudas, explicaciones y notas que tengas durante toda la travesía. Será un instrumento de apoyo que te ayudará a ir conociendo tus procesos de aprendizaje.
+
+[Descarga la Caratula de Workbook aquí 🔗](https://user-images.githubusercontent.com/17634377/156294681-a7d2feb4-d41e-464f-9dbf-0fbc781aa056.png)
 
 # 1 Exploraciones 🕵️
 
@@ -136,15 +158,15 @@ Herramientas que vamos a usar:
 
 Sigue las siguientes instrucciones:
 
-### 1) Realiza un fork del proyecto 
+### 1) Realiza un fork del proyecto
 
 El repo original es un proyecto creado y configurado con GoHugo para ti.
 
-Ve al siguiente repo en GitHub y hazle un fork: [https://github.com/visualpartnership/super-duper-memory](https://github.com/visualpartnership/my_launchx_blog) Esto deberá crear una copia de este repositorio en tu cuenta de GitHub para uso personal. Recuerda esta es una copia para ti. 
+Ve al siguiente repo en GitHub y hazle un fork: [https://github.com/visualpartnership/super-duper-memory](https://github.com/visualpartnership/my_launchx_blog) Esto deberá crear una copia de este repositorio en tu cuenta de GitHub para uso personal. Recuerda esta es una copia para ti.
 
 ![Untitled](https://user-images.githubusercontent.com/17634377/155231614-392d4b72-c2a5-4ece-93f1-e795516d590b.gif)
 
-El **fork** que acabas de crear es una copia para ti, este será el blog que montarás y llenarás de contenido en nuestras sesiones. 
+El **fork** que acabas de crear es una copia para ti, este será el blog que montarás y llenarás de contenido en nuestras sesiones.
 
 ### 2) Activa GitHub Pages y obtén la url donde publicarás tu blog
 
@@ -158,7 +180,7 @@ Reserva la url, espera unos minutos y si entras por tu navegador podrás ver alg
 
 ![image](https://user-images.githubusercontent.com/17634377/155236315-d71fc55f-6862-42d0-b3a9-8bf86c572fcd.png)
 
-Esto se ve así porque el proyecto no esta configurado correctamente. 
+Esto se ve así porque el proyecto no esta configurado correctamente.
 
 ### 3) Modifica la configuración
 
@@ -230,9 +252,11 @@ Una vez que los indicadores amarillos pasen a verde, visita de nuevo el sitio we
 
 ![image](https://user-images.githubusercontent.com/17634377/155239119-7c5182e7-a717-4b44-b666-755e6c588e9e.png)
 
-### 5) Modifica la descripción 
+### 5) Modifica la descripción
 
-Modifica la descripción que aparece en la página de tu nuevo blog. Agregar una descripción de ti, y haz un listado de tus propias expectativas de aprendizaje para este módulo de Backend en Launch X. 
+Modifica la descripción que aparece en la página de tu nuevo blog. Agregar una descripción de ti, y haz un listado de tus propias expectativas de aprendizaje para este módulo de Backend en Launch X.
+
+Para esto modifica el archivo en **content/_index.md**
 
 ![week1-5](https://user-images.githubusercontent.com/17634377/155239816-e641c91d-7480-4e6e-a746-e4c75d86ef56.gif)
 
@@ -242,7 +266,7 @@ NOTA: Al guardar estos cambios con un commit, automáticamente GitHub Actions ej
 
 Es tiempo de agregar el primer post de tu blog. Modificaremos el archivo markdown que ya esta ahí.
 
-> Piensa en la cultura de un profesional de software y redacta a tu manera un post donde nos muestres qué valores, prácticas, sentimientos, emociones, y demás, valoras en un desarrollador de software. 
+> Piensa en la cultura de un profesional de software y redacta a tu manera un post donde nos muestres qué valores, prácticas, sentimientos, emociones, y demás, valoras en un desarrollador de software.
 
 Agrega ese contenido en el post, usando el formato markdown, de la siguiente forma:
 
@@ -252,5 +276,24 @@ Al guardar tus cambios, podrás ver tu nuevo post en la sección de **posts**:
 
 ![image](https://user-images.githubusercontent.com/17634377/155240699-b0bb0cae-9864-495a-a6df-30bdbbd413ab.png)
 
+### 7) Agrega un nuevo blog post: Mi ruta de aprendizaje
+
+Ve a la siguiente carpeta en **content/posts/** 📁. Ahí crea un nuevo archivo y nombralo **post_1.md**. Copia el siguiente template de markdown y sustituye los valores, pon la fecha actual, un título y una descripción adecuada.
+
+```markdown
+---
+title: "Título de tu blog post"
+date: 2022-03-01
+description: 'Descripción de tu blog post'
+---
+
+Hey! Este es el contenido del nuevo post, borra esto y llena tu contenido.
+```
+
+Aquí podrás agregar todo el contenido en formato markdown que necesites para escribir tu segundo blog post.
+
+> Escribe un recuento de todo lo que has aprendido en Launch X desde la semana de inducción, hasta el módulo de Frontend. El cielo es el límite, puedes contarnos qué te ha gustado más, qué te ha gustado menos, qué te ha parecido más difícil. Recuerda que comunicar es una habilidad que se desarrolla con mucha práctica y tiempo.
+
+Al agregar el contenido, guarda con un commit y espera a que el build del GitHub Actions termine para ver tus cambios en la página. Si esto pasa y no ves tus cambios, borra las cookies, o bien abre tu blog en una ventana de incógnito.
 
 
