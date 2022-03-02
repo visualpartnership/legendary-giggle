@@ -1,7 +1,7 @@
 ---
 title: "Weekly Mission 1"
 date: 2022-02-21T13:33:50-06:00
-draft: false
+draft: true
 description: Contenido de la semana 1
 ---
 
@@ -17,7 +17,6 @@ description: Contenido de la semana 1
  🎯  Uso de GitHub como plataforma para hospedar código, Pull Requests y Forks.
  🎯  Elaboración de un blog propio
  🎯  Contribución a un repo a través de un Pull Request
- 🎯  Instalación de NodeJS
 ```
 
 # Summary 📌
@@ -306,7 +305,7 @@ Puedes agregar una descripción de ti en **content/pages/about.md**.
 
 Para tener un lugar donde ver los blogs creados en esta sesión tendrás que actualizar un repositorio de GitHub que no es tuyo, para esto nos sirven los **Pull Request**.
 
-CREA UN FORK 
+CREA UN FORK
 - 📌 Ve al siguiente [repositorio de GitHub 🔗](https://github.com/visualpartnership/launch-x-explorers)
 - 📌 Crea una copia de ese proyecto en tu cuenta. Para esto da click en el botón de **fork**.
 - 📌 Copia esta línea, pon tu nombre, pon tu username de GitHub, y agregar el link a tu blog:
@@ -314,7 +313,7 @@ CREA UN FORK
 ```markdown
 | Nombre del Explorer | [Blog de @explorer](https://carlogilmar.xyz/blog/) |
 ```
-- 📌 En el archivo **readme.md** en la línea 12 agregar la línea de arriba con tus datos y guarda con un commit. 
+- 📌 En el archivo **readme.md** en la línea 12 agregar la línea de arriba con tus datos y guarda con un commit.
 
 ![week1-8](https://user-images.githubusercontent.com/17634377/156303044-702f50a8-97d6-4863-ad26-b08d64d2393d.gif)
 
@@ -329,4 +328,24 @@ MANDA TU PRIMER PR
 
 ![week1-10](https://user-images.githubusercontent.com/17634377/156303054-f8596c6c-041a-4c36-bde1-2d262b777e4d.gif)
 
+En este repo podrás ver las contribuciones de tus compañeros.
 
+Revisa la primera sección de esta **Weekly Mission** y corrobora que se ha cumplido el objetivo y los logros. Si tienes dudas asiste a las mentorías y participa en los foros.
+
+Es importante aclarar que es mucho lo que hemos desarrollado aquí, pero no es necesario que lo domines al 100%, es importante dedicarle tiempo a esto porque serán nuestras herramientas en las próximas semanas.
+
+Si has terminado en tiempo y forma, te recomiendo esto para la siguiente sesión:
+
+- Tener git instalado
+- Instalación de NodeJS en tu Sistema Operativo
+
+# 3. Referencias 📕
+
+- 📍 [GitHub Docs](https://docs.github.com/en)
+- 📍 [GitHub Pages](https://pages.github.com/)
+- 📍 [Git Docs](https://git-scm.com/doc)
+- 📍 [Taller de Git de @carlogilmar](https://github.com/carlogilmar/git-course)
+- 📍 [Go Hugo for build static websites](https://gohugo.io/)
+- 📍 [Ubuntu Command Line tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+
+Nos vemos en la siguiente sesión, cambio y fuera 🙃
