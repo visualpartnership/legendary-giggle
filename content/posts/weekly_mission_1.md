@@ -4,39 +4,48 @@ date: 2022-02-21T13:33:50-06:00
 description: Contenido de la semana 1
 ---
 
-{{< title "Weekly Mission 1" >}}
+{{< title "Iniciando en 3, 2, 1... 🛰" >}}
 
-# Goal ⭐️
+# ⭐️ Objetivo de la Weekly Mission
+
 > Conocer y discutir la importancia de las herramientas básicas del desarrollo de software y porque debemos invertir tiempo en dominarlas.
 
-# Achievements 🏆
+# 🏆 Aventuras por descubrir
+
 ``` markdown
- 🎯  Comenzar a usar la línea de comando de tu Sistema Operativo
- 🎯  Explorar los usos y entender los conceptos del control de versiones Git
+ 🎯  Comenzar a usar la línea de comando de tu Sistema Operativo.
+ 🎯  Explorar los usos y entender los conceptos del control de versiones Git.
  🎯  Uso de GitHub como plataforma para hospedar código, Pull Requests y Forks.
- 🎯  Elaboración de un blog propio
- 🎯  Contribución a un repo a través de un Pull Request
+ 🎯  Elaboración de un blog propio.
+ 🎯  Contribución a un repo a través de un Pull Request.
 ```
 
-# Summary 📌
+# 🎁 Entregables
+
+```
+  🎁 Crear tu blog personal y agregar los primeros dos post.
+  🎁 Enviar tu primer PR a un repositorio de GitHub.
+```
+
+# 🗺 Mapa de navegación
+
 ``` markdown
-0. Intro 🚀
-1. Exploraciones 🕵️
-  - Conocimiento del SO por línea de comando
-  - Uso del control de versiones
-  - Uso del editor de texto
-2. Checkpoint: Creando tu propio blog
-3. Referencias 📕
+0. ⚡️ Intro
+1. 🕵️‍♀️ Exploraciones
+2. 🔥 Checkpoint
+3. 📕 Referencias
+4. 💡 Spoilers
 ```
 
-{{< title "Weekly Mission 1" >}}
+{{< title "Comenzamos 🚀" >}}
 
-# 0. Intro: Hola Explorers 🤩
+{{< point "0. ⚡️ Intro" >}}
 
 Bienvenidos al módulo de **Launch X** en Backend con **Node JS**. Aquí encontrarás el contenido de la semana 1. El diseño de este contenido ha sido pensado para guiarte paso a paso por los contenidos, consta de lo siguiente:
-- 📌 1 Exploraciones
-- 📌 2 Checkpoint
-- 📌 3 Referencias
+1. 🕵️‍♀️ Exploraciones
+2. 🔥 Checkpoint
+3. 📕 Referencias
+4. 💡 Spoilers
 
 Las **1) exploraciones** son guías que deberás desarrollar, te darán una idea de qué investigar y cómo complementar tu aprendizaje. **Es importante leer esta parte al menos una vez porque en las mentorías platicaremos de esto.** Es conveniente investigar este contenido, pero no te preocupes, este contenido lo vamos a desarrollar en las mentorías juntos.
 
@@ -44,18 +53,9 @@ El punto **2) Checkpoint** es la parte práctica, he tratado de describir paso a
 
 En el punto **3) Referencias** encontrarás el listado de libros y artículos de referencia.
 
-### 💡 LaunchX Workbook
+{{< label "Este contenido será desarrollado y ampliado en las mentorías. Si no puedes asistir en vivo, para complementar tu aprendizaje tendrás que ver la grabación." >}}
 
-Te invito a crear tu propio Workbook 📕:
-
-- 📌 Toma 6 hojas blancas tamaño carta
-- 📌 Dobla por la mitad y crea un cuadernillo (Puedes usar la caratula que diseñé para ti)
-
-> El workbook sirve para vaciar las ideas, dudas, explicaciones y notas que tengas durante toda la travesía. Será un instrumento de apoyo que te ayudará a ir conociendo tus procesos de aprendizaje.
-
-[Descarga la Caratula de Workbook aquí 🔗](https://user-images.githubusercontent.com/17634377/156294681-a7d2feb4-d41e-464f-9dbf-0fbc781aa056.png)
-
-# 1 Exploraciones 🕵️
+{{< point "1. 🕵️ Exploraciones" >}}
 
 > You're here because you know you can become a better developer and help others become better as well.
 > What distinguises Pragmatic Programmers? We feel it's an attitude, a style, a philosophy of approaching problems and their solutions.
@@ -67,9 +67,9 @@ Si bien la solución lógica es muy importante, no podría llevarse a la ejecuci
 
 ¿Cuáles considerarías que son las herramientas de un desarrollador de software?
 
-1. 📍 Conocer tu Sistema Operativo a través de la Línea de Comando
-2. 📍 Comprender el sistema de control de versiones (guiño, guiño, git y GitHub)
-3. 📍 Uso de tu editor de texto favorito y sus plugins
+1. 📍 Conocer tu Sistema Operativo a través de la Línea de Comando.
+2. 📍 Comprender el sistema de control de versiones (guiño, guiño, git y GitHub).
+3. 📍 Uso de tu editor de texto favorito y sus plugins.
 
 Las siguientes exploraciones son una guía de objetivos y temas que deberás revisar como recomendación y complemento de tu aprendizaje.
 
@@ -79,16 +79,16 @@ Existen diferentes SO, sin embargo para este acompañamiento haremos énfasis en
 
 Si ya usas un SO basado en linux como Ubuntu, Fedora, CentOS, o bien en Unix como MacOS o Solaris, bastará con abrir la terminal que viene por defecto. Si estas en windows puedes instalar y usar el [subsistema de linux](https://docs.microsoft.com/en-us/windows/wsl/install).
 
-🗒 Nota: Esto lo puedes realizar en tu línea de comando, o bien en la siguiente web: [https://bellard.org/jslinux/](https://bellard.org/jslinux/)
+🗒 Nota: Esto lo puedes realizar en tu línea de comando, o bien en la siguiente web: [https://bellard.org/jslinux/](https://bellard.org/jslinux/).
 
 Es muy importante tener claro algunos conceptos:
 
-* 💡 Sistema de archivos de Linux/Unix
-* 💡 Qué es una Shell/Terminal y diferentes tipos de terminales
+* 💡 Sistema de archivos de Linux/Unix.
+* 💡 Qué es una Shell/Terminal y diferentes tipos de terminales.
 * 💡 Mover la ubicación de tu shell a directorios específicos.
 * 💡 Manipulación de archivos por línea de comando: crear, modificar, eliminar, mover.
-* 💡 Listar archivos y ver su contenido
-* 💡 Instalación de programas desde la línea de comando
+* 💡 Listar archivos y ver su contenido.
+* 💡 Instalación de programas desde la línea de comando.
 
 **📌 Lista de comandos prácticos**
 
@@ -126,26 +126,28 @@ Cualquier desarrollador de software necesita de un control de versiones. Aunque 
 
 Para este viaje necesitarás:
 
-- 📍 Instalar localmente git [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- 📍 Una cuenta de GitHub
+- 📍 Instalar localmente git [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+- 📍 Una cuenta de GitHub.
 
 Sobre git es necesario que puedas hacer esto por tu cuenta usando solo **comandos de git**:
-* 💡 Instalar git localmente y agregar tu usuario (nombre y correo)
-* 💡 Comprender qué es el branch principal (master o main)
-* 💡 Crear y eliminar un nuevo repositorio local en un directorio
-* 💡 Entender cómo opera git a través de los stages: working area, staging, local repository & remote repository.
-* 💡 Realizar un commit: comandos **add** y **commit**
-* 💡 Ver el log de commits
-* 💡 Ver el contenido de un commit
+* 💡 Instalar git localmente y agregar tu usuario (nombre y correo).
+* 💡 Comprender qué es el branch principal (master o main).
+* 💡 Crear y eliminar un nuevo repositorio local en un directorio.
+* 💡 Entender cómo opera git, a través de los stages: working area, staging, local repository & remote repository.
+* 💡 Realizar un commit: comandos **add** y **commit**.
+* 💡 Ver el log de commits.
+* 💡 Ver el contenido de un commit.
 * 💡 Realizar rollback sobre un commit en particular.
-* 💡 Crear tu llave ssh y agregarla a GitHub
-* 💡 Crear un repositorio en GitHub y descargarlo a tu equipo local
-* 💡 Actualizar el repositorio remoto **push**
-* 💡 Actualizar tu repositorio local **pull**
+* 💡 Crear tu llave ssh y agregarla a GitHub.
+* 💡 Crear un repositorio en GitHub y descargarlo a tu equipo local.
+* 💡 Actualizar el repositorio remoto **push**.
+* 💡 Actualizar tu repositorio local **pull**.
 
 Si no sabes nada de esto, no te preocupes, entra a la mentoría porque ahí desarrollaremos estos temas.
 
-{{< jumbotron "2 Checkpoint: Creando tu propio blog 🧪" >}}
+{{< label "Te recomiendo investigar y profundizar en estos temas, pero no te preocupes que en las mentorías desarollaremos juntos todos estos puntos. Es importante que asistas o veas las grabaciones." >}}
+
+{{< point "2. 🔥 Checkpoint" >}}
 
 Herramientas que vamos a usar:
 
@@ -154,9 +156,11 @@ Herramientas que vamos a usar:
 - 👉 Cuenta activa de GitHub
 - 👉 [Saber escribir en formato markdown](https://www.markdownguide.org/basic-syntax/)
 
-Sigue las siguientes instrucciones:
+{{< label "Antes de comenzar a realizar lo siguiente, lee y comprende los pasos a seguir." >}}
 
-### 1) Realiza un fork del proyecto
+Sigue y realiza las siguientes instrucciones:
+
+### 1) Realiza un fork del proyecto.
 
 El repo original es un proyecto creado y configurado con GoHugo para ti.
 
@@ -166,7 +170,7 @@ Ve al siguiente repo en GitHub y hazle un fork: [https://github.com/visualpartne
 
 El **fork** que acabas de crear es una copia para ti, este será el blog que montarás y llenarás de contenido en nuestras sesiones.
 
-### 2) Activa GitHub Pages y obtén la url donde publicarás tu blog
+### 2) Activa GitHub Pages y obtén la url donde publicarás tu blog.
 
 Habilita GitHub Pages, para ello ve a **Settings** y del lado izquierdo selecciona **Pages**. Obtén la url del sitio que te da de la siguiente forma:
 
@@ -180,7 +184,7 @@ Reserva la url, espera unos minutos y si entras por tu navegador podrás ver alg
 
 Esto se ve así porque el proyecto no esta configurado correctamente.
 
-### 3) Modifica la configuración
+### 3) Modifica la configuración.
 
 Regresa al repo de tu fork, da click sobre el archivo **conf.toml** y modifica los valores mostrados con tu información y **tu url**. No olvides guardar este cambio con un commit.
 
@@ -190,7 +194,7 @@ Ahora agregaremos tu información personal en los archivos de **data/social.json
 
 ![week1-3-2](https://user-images.githubusercontent.com/17634377/155238857-3c79d33c-8081-4f7d-92e2-c3990d3f6700.gif)
 
-### 4) Agrega un GitHub Action para construir tu blog y publicarlo
+### 4) Agrega un GitHub Action para construir tu blog y publicarlo.
 
 Haremos uso de **GoHugo** para publicar el blog. Todo este archivo es un proyecto hecho con esta herramienta, mediante un GitHub Action construiremos el sitio y lo podrás ver en tu url.
 
@@ -250,7 +254,7 @@ Una vez que los indicadores amarillos pasen a verde, visita de nuevo el sitio we
 
 ![image](https://user-images.githubusercontent.com/17634377/155239119-7c5182e7-a717-4b44-b666-755e6c588e9e.png)
 
-### 5) Modifica la descripción
+### 5) Modifica la descripción.
 
 Modifica la descripción que aparece en la página de tu nuevo blog. Agregar una descripción de ti, y haz un listado de tus propias expectativas de aprendizaje para este módulo de Backend en Launch X.
 
@@ -260,7 +264,7 @@ Para esto modifica el archivo en **content/_index.md**
 
 NOTA: Al guardar estos cambios con un commit, automáticamente GitHub Actions ejecutará los dos jobs para construir el proyecto y publicarlo en GitHub Pages. Por lo que resta decir que cualquier cambio desde aquí ejecutará inmendiatamente ambos procedimientos. Puedes ver la pestaña de **Actions** y cuando los indicadores estén en verde, puedes visitar tu sitio actualizado.
 
-### 6) Agrega el contenido de tu primer post: La cultura en el desarrollo de software
+### 6) Agrega el contenido de tu primer post: La cultura en el desarrollo de software.
 
 Es tiempo de agregar el primer post de tu blog. Modificaremos el archivo markdown que ya esta ahí.
 
@@ -274,7 +278,7 @@ Al guardar tus cambios, podrás ver tu nuevo post en la sección de **posts**:
 
 ![image](https://user-images.githubusercontent.com/17634377/155240699-b0bb0cae-9864-495a-a6df-30bdbbd413ab.png)
 
-### 7) Agrega un nuevo blog post: Mi ruta de aprendizaje
+### 7) Agrega un nuevo blog post: Mi ruta de aprendizaje.
 
 Ve a la siguiente carpeta en **content/posts/** 📁. Ahí crea un nuevo archivo y nombralo **post_1.md**. Copia el siguiente template de markdown y sustituye los valores, pon la fecha actual, un título y una descripción adecuada.
 
@@ -300,7 +304,7 @@ Al agregar el contenido, guarda con un commit y espera a que el build del GitHub
 
 Puedes agregar una descripción de ti en **content/pages/about.md**.
 
-### 8) Comparte tu nuevo blog en LaunchX
+### 8) Comparte tu nuevo blog en LaunchX.
 
 Para tener un lugar donde ver los blogs creados en esta sesión tendrás que actualizar un repositorio de GitHub que no es tuyo, para esto nos sirven los **Pull Request**.
 
@@ -331,20 +335,33 @@ En este repo podrás ver las contribuciones de tus compañeros.
 
 Revisa la primera sección de esta **Weekly Mission** y corrobora que se ha cumplido el objetivo y los logros. Si tienes dudas asiste a las mentorías y participa en los foros.
 
-Es importante aclarar que es mucho lo que hemos desarrollado aquí, pero no es necesario que lo domines al 100%, es importante dedicarle tiempo a esto porque serán nuestras herramientas en las próximas semanas.
+{{< label "El envío de tu Pull Request con el link a tu blog con los posts solicitados será la entrega de esta sesión." >}}
 
-Si has terminado en tiempo y forma, te recomiendo esto para la siguiente sesión:
+Es necesario aclarar que es mucho lo que hemos desarrollado aquí, pero no es necesario que lo domines al 100%, es importante dedicarle tiempo a esto porque serán nuestras herramientas en las próximas semanas. A lo largo de las siguientes Weekly Missions usaremos los conceptos de esta sesión, por lo que será un requisito necesario para comprender los temas que veremos, así como los iremos retomando y practicando varias veces.
 
-- Tener git instalado
-- Instalación de NodeJS en tu Sistema Operativo
+{{< point "3. 📕 Referencias" >}}
 
-# 3. Referencias 📕
+Si te quedaste con ganas de más, te dejo algunos enlaces a sitios donde podrás apoyarte y profundizar el contenido de esta sesión:
 
 - 📍 [GitHub Docs](https://docs.github.com/en)
 - 📍 [GitHub Pages](https://pages.github.com/)
 - 📍 [Git Docs](https://git-scm.com/doc)
+- 📍 [Pro Git libro en español](https://git-scm.com/book/es/v2)
+- 📍 [Mastering Git](https://www.packtpub.com/product/mastering-git/9781783553754)
+- 📍 [Build Websites with Hugo Book](https://pragprog.com/titles/bhhugo/build-websites-with-hugo/)
 - 📍 [Taller de Git de @carlogilmar](https://github.com/carlogilmar/git-course)
 - 📍 [Go Hugo for build static websites](https://gohugo.io/)
 - 📍 [Ubuntu Command Line tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+
+{{< point "4. 💡 Spoilers " >}}
+
+Para la siguiente sesión ahora sí entraremos de lleno al mundo de Node JS, te cuento brevemente algo de lo que veremos:
+
+- ⭐️ Javascript, versiones y herramientas desde la línea de comando.
+- ⭐️ Node JS.
+- ⭐️ V8 Javascript Engine.
+- ⭐️ Crear scripts de Node.
+- ⭐️ Lógica de programación con JS.
+- ⭐️ Unit Testing y TDD.
 
 Nos vemos en la siguiente sesión, cambio y fuera 🙃
