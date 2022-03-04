@@ -1,7 +1,6 @@
 ---
 title: "Weekly Mission 1"
 date: 2022-02-21T13:33:50-06:00
-draft: true
 description: Contenido de la semana 1
 ---
 
