@@ -7,12 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://visualpartnership.xyz/legendary-giggle/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mentorías</title>
+      <title>Temario</title>
+      <link>https://visualpartnership.xyz/legendary-giggle/pages/content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://visualpartnership.xyz/legendary-giggle/pages/content/</guid>
+      <description>Como ya habrás leído nuestro acompañamiento se divide en Weekly Missions. Cada una de ellas tiene por objetivo revisar una serie de temas referentes a Node JS uniendo la parte práctica y teórica a través de los ejercicios y las mentorías. 💡
+🚀 Weekly Mission 1  En esta primera semana nos adentraremos al mundo de JavaScript como lenguaje de programación, haremos un necesario recorrido por sus fortalezas y debilidades a fin de comprender cómo funciona Node JS y cómo podemos comenzarlo a usar.</description>
+    </item>
+    
+    <item>
+      <title>Weekly Missions</title>
       <link>https://visualpartnership.xyz/legendary-giggle/pages/mentories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://visualpartnership.xyz/legendary-giggle/pages/mentories/</guid>
-      <description>Calendario Sesiones 👉 Sesión 1 28 de Abril</description>
+      <description>Nuestro acompañamiento estará dividido en Weekly Missions, una por semana, donde tendremos una serie de sesiones de mentoría y prácticas para desarrollar y profundizar juntos. 🚨 RECUERDA QUE ES MUY IMPORTANTE ASISTIR A LAS SESIONES EN VIVO O VER LAS REPETICIONES.
+  👉 WEEKLY MISSION 1: Del 28 de Marzo al 1 de Abril. 👉 WEEKLY MISSION 2: Del 4 al 8 de Abril. 👉 WEEKLY MISSION 3: Del 11 al 15 de Abril.</description>
     </item>
     
   </channel>
