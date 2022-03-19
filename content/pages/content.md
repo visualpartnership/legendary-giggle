@@ -1,8 +1,8 @@
 ---
-title: 'Temario'
+title: 'Contenido'
 menu:
   main:
-    name: "Temario"
+    name: "Contenido"
 ---
 
 Como ya habrás leído nuestro acompañamiento se divide en **Weekly Missions**. Cada una de ellas tiene por objetivo revisar una serie de temas referentes a **Node JS** uniendo la parte práctica y teórica a través de los ejercicios y las mentorías. 💡

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://visualpartnership.xyz/legendary-giggle/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Temario</title>
+      <title>Contenido</title>
       <link>https://visualpartnership.xyz/legendary-giggle/pages/content/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -23,7 +23,8 @@
       
       <guid>https://visualpartnership.xyz/legendary-giggle/pages/mentories/</guid>
       <description>Nuestro acompañamiento estará dividido en Weekly Missions, una por semana, donde tendremos una serie de sesiones de mentoría y prácticas para desarrollar y profundizar juntos. 🚨 RECUERDA QUE ES MUY IMPORTANTE ASISTIR A LAS SESIONES EN VIVO O VER LAS REPETICIONES.
-  👉 WEEKLY MISSION 1: Del 28 de Marzo al 1 de Abril. 👉 WEEKLY MISSION 2: Del 4 al 8 de Abril. 👉 WEEKLY MISSION 3: Del 11 al 15 de Abril.</description>
+ En la sección de Temario puedes consultar el contenido que vamos a desarrollar.
+  Ir al contenido 🚀      button { position: relative; padding: 19px 36px; display: block; text-decoration: none; text-transform: uppercase; overflow: hidden; border-radius: 40px; border: none; } button a{ position: relative; color: #fff; font-family: Arial; letter-spacing: 8px; z-index: 1; } button .</description>
     </item>
     
   </channel>
