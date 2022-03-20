@@ -12,14 +12,14 @@ Este será nuestro espacio de referencia para consultar las prácticas, ejercici
 
 > *Recuerda que es muy importante asistir a las mentorías en vivo o ver las repeticiones, ahí complementaremos los ejercicios prácticos.*
 
+# ¿Qué es una Weekly Mission?
+
+Es un conjunto de temas y prácticas por desarrollar entre **explorers** y **mission commander**. Encontrarás un link a la **Weekly Mission** correspondiente a la semana de trabajo, ahí tendrás algunos puntos por desarrollar e investigar que te ayudarán a ir familiarizándote con Node JS. Pero descuida, no estarás solo, ya que este mismo contenido será desarrollado en las sesiones de mentoría. El contenido de una Weekly Mission esta considerado para desarrollarse durante toda la semana.
+
 En la sección de **Weekly Missions** 💫 encontrarás la información relativa al contenido, fechas, horarios y enlaces a las llamadas que tendremos durante nuestro trayecto.
 
 {{< my_button "Ir a Weekly Missions" "/pages/mentories" >}}
 ---
-
-# ¿Qué es una Weekly Mission?
-
-Es un conjunto de temas y prácticas por desarrollar entre **explorers** y **mission commander**. Encontrarás un link a la **Weekly Mission** correspondiente a la semana de trabajo, ahí tendrás algunos puntos por desarrollar e investigar que te ayudarán a ir familiarizándote con Node JS. Pero descuida, no estarás solo, ya que este mismo contenido será desarrollado en las sesiones de mentoría. El contenido de una Weekly Mission esta considerado para desarrollarse durante toda la semana.
 
 # ¿Qué haremos en las mentorías?
 
