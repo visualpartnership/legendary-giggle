@@ -12,8 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://visualpartnership.xyz/legendary-giggle/pages/content/</guid>
-      <description>Como ya habrás leído nuestro acompañamiento se divide en Weekly Missions. Cada una de ellas tiene por objetivo revisar una serie de temas referentes a Node JS uniendo la parte práctica y teórica a través de los ejercicios y las mentorías. 💡
-🚀 Weekly Mission 1  En esta primera semana nos adentraremos al mundo de JavaScript como lenguaje de programación, haremos un necesario recorrido por sus fortalezas y debilidades a fin de comprender cómo funciona Node JS y cómo podemos comenzarlo a usar.</description>
+      <description>Como ya habrás leído nuestro acompañamiento se divide en 6 semanas. Cada una de ellas tiene por objetivo revisar una serie de temas referentes a Node JS uniendo la parte práctica y teórica a través de los ejercicios y las mentorías. 💡
+La siguiente ilustración te ayudará a visualizar muchos de los temas que veremos:
+🚀 Semana 1  En esta primera semana nos adentraremos al mundo de JavaScript como lenguaje de programación, haremos un necesario recorrido por sus fortalezas y debilidades a fin de comprender cómo funciona Node JS y cómo podemos comenzarlo a usar.</description>
     </item>
     
     <item>
@@ -22,7 +23,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://visualpartnership.xyz/legendary-giggle/pages/mentories/</guid>
-      <description>Nuestro acompañamiento estará dividido en Weekly Missions, una por semana, donde tendremos una serie de sesiones de mentoría y prácticas para desarrollar y profundizar juntos. 🚨 RECUERDA QUE ES MUY IMPORTANTE ASISTIR A LAS SESIONES EN VIVO O VER LAS REPETICIONES.
+      <description>Nuestro acompañamiento estará dividido en 6 semanas, donde tendremos una serie de sesiones de mentoría y prácticas para desarrollar y profundizar juntos. 🚨 RECUERDA QUE ES MUY IMPORTANTE ASISTIR A LAS SESIONES EN VIVO O VER LAS REPETICIONES.
  En la sección de Temario puedes consultar el contenido que vamos a desarrollar.
   Ir al contenido 🚀      button { position: relative; padding: 19px 36px; display: block; text-decoration: none; text-transform: uppercase; overflow: hidden; border-radius: 40px; border: none; } button a{ position: relative; color: #fff; font-family: Arial; letter-spacing: 8px; z-index: 1; } button .</description>
     </item>
