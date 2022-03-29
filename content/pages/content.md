@@ -5,11 +5,13 @@ menu:
     name: "Contenido"
 ---
 
-Como ya habrás leído nuestro acompañamiento se divide en **Weekly Missions**. Cada una de ellas tiene por objetivo revisar una serie de temas referentes a **Node JS** uniendo la parte práctica y teórica a través de los ejercicios y las mentorías. 💡
+Como ya habrás leído nuestro acompañamiento se divide en **Weekly Missions**. Cada una de ellas tiene por objetivo revisar una serie de temas referentes a **Node JS** uniendo la parte práctica y teórica a través de los ejercicios y las mentorías. 💡 La siguiente ilustración te ayudará a visualizar muchos de los temas que veremos:
+
+![Ilustración_sin_título](https://user-images.githubusercontent.com/17634377/160545349-1623060f-e75f-43cf-b7f9-0c1140ca9f9f.png)
 
 # 🚀 Weekly Mission 1
 
-> En esta primera semana nos adentraremos al mundo de JavaScript como lenguaje de programación, haremos un necesario recorrido por sus fortalezas y debilidades a fin de comprender cómo funciona Node JS y cómo podemos comenzarlo a usar.
+> En esta primera semana nos adentraremos al mundo de JavaScript como lenguaje de programación, haremos un necesario recorrido por sus fortalezas y debilidades a fin de comprender cómo funciona Node JS y cómo podemos comenzarlo a usar. 
 
 - 📍 La importancia de las herramientas en el desarrollo de software: Git y GitHub.
 - 📍 JavaScript como lenguaje de programación y Node JS como entorno de ejecución.
